@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #4586ff;
+  --text-color: #32424a;
+  --secondary-color: #01ecd5;
+  --light-color: #f5f5f5;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color) !important;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.card {
+  border-radius: 0;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+  transition: 0.3s;
+}
+
+.section-title {
+  font-weight: 600;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.navbar .navbar-brand span {
+  color: var(--primary-color) !important;
+}
+
+.navbar .nav-item {
+  margin: 5px 15px !important;
+}
+
+.navbar .nav-item:nth-last-child(1) {
+  margin-left: 0 !important;
+}
+
+.navbar .nav-item a {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.navbar .nav-item .login,
+.navbar .nav-item .register {
+  border-radius: 4px;
+  padding: 4px 20px !important;
+  border: 1px solid var(--primary-color) !important;
+}
+
+.navbar .nav-item .register {
+  color: #fff !important;
+  background-color: var(--primary-color) !important;
+}
+
+.navbar .nav-item .register:hover,
+.navbar .nav-item .login:hover {
+  color: #fff !important;
+  background-color: #3168ce !important;
+}
+
+#hero .row {
+  height: 550px;
+}
+
+#hero h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+#hero h6 span {
+  color: var(--primary-color) !important;
+}
+
+#recommended .btn-type {
+  background-color: var(--light-color);
+  margin: 0 10px;
+  padding: 10px 40px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+#recommended .btn-type.active {
+  background-color: #fff;
+  color: var(--primary-color) !important;
+}
+
+#recommended .card:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+}
+
+#recommended .card:hover .btn-view {
+  background-color: var(--primary-color) !important;
+  color: var(--light-color) !important;
+}
+
+#recommended .card img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+
+#recommended .card .btn-description {
+  background-color: var(--primary-color) !important;
+  color: var(--light-color) !important;
+  font-size: 12px;
+  padding: 2px 5px;
+}
+
+#recommended .card .price small {
+  font-size: 12px;
+}
+
+#recommended .card .btn-view {
+  margin-top: 15px;
+  border-radius: 0;
+  display: block;
+  color: var(--primary-color) !important;
+  background-color: var(--light-color) !important;
+  font-size: 12px;
+  padding: 15px 0;
+  font-weight: bold;
+  transition: 0.3s !important;
+}
+
+#better .card {
+  text-align: center;
+  padding: 10px;
+}
+
+#better .card img {
+  width: 80px;
+}
+
+#better .card p {
+  font-size: 14px;
+}
+
+#review .card img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#review .card img.star {
+  width: 25px;
+  height: 25px;
+}
+
+#review .card p.comment {
+  font-size: 14px;
+}
+
+#review .card p.date {
+  font-size: 14px;
+  color: #aaa !important;
+}
+
+footer {
+  background-color: var(--primary-color);
+  padding: 20px 0;
+  margin: 0;
+}
+
+footer h3,
+h5 {
+  color: var(--light-color) !important;
+  font-weight: bold;
+}
+
+footer p,
+footer ul li a {
+  color: rgba(255, 255, 255, 0.6) !important;
+  transition: 0.3s;
+}
+
+footer p {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li a {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: #fff !important;
+}
+
+footer .main-footer {
+  padding: 20px 0;
+}
